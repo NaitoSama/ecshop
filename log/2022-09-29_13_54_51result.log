@@ -1,0 +1,86 @@
+Thu, 29 Sep 2022 13:54:51 Log.py[line:18] INFO 登录 success
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "#menu-frame"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"914d3675-9ae9-4b9c-a1ee-831402a00a41"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/frame {"id": {"element-6066-11e4-a52e-4f735466cecf": "914d3675-9ae9-4b9c-a1ee-831402a00a41"}}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/frame HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "li[key=\"08_members\"]"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"54450a05-b6bc-4ec0-9a83-7527d68ad071"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/54450a05-b6bc-4ec0-9a83-7527d68ad071/click {"id": "54450a05-b6bc-4ec0-9a83-7527d68ad071"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/54450a05-b6bc-4ec0-9a83-7527d68ad071/click HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "link text", "value": "\u6dfb\u52a0\u4f1a\u5458"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"bb3864b4-bb32-4b3a-b73d-d369650a0335"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/bb3864b4-bb32-4b3a-b73d-d369650a0335/click {"id": "bb3864b4-bb32-4b3a-b73d-d369650a0335"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/bb3864b4-bb32-4b3a-b73d-d369650a0335/click HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/frame {"id": null}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/frame HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "#main-frame"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"5981b314-6cee-435d-80f5-d2b1e50f01af"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/frame {"id": {"element-6066-11e4-a52e-4f735466cecf": "5981b314-6cee-435d-80f5-d2b1e50f01af"}}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/frame HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "input[name=\"username\"]"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ed291597-65e1-4035-ade4-0573cbf15279"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/ed291597-65e1-4035-ade4-0573cbf15279/value {"text": "test3", "value": ["t", "e", "s", "t", "3"], "id": "ed291597-65e1-4035-ade4-0573cbf15279"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/ed291597-65e1-4035-ade4-0573cbf15279/value HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "input[name=\"email\"]"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"9d8ecf5a-5eed-4e02-983f-9dd79d73aef3"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/9d8ecf5a-5eed-4e02-983f-9dd79d73aef3/value {"text": "test3@test.com", "value": ["t", "e", "s", "t", "3", "@", "t", "e", "s", "t", ".", "c", "o", "m"], "id": "9d8ecf5a-5eed-4e02-983f-9dd79d73aef3"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/9d8ecf5a-5eed-4e02-983f-9dd79d73aef3/value HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "input[name=\"password\"]"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"047c3332-04f3-4bdd-80a4-ac31066ec183"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/047c3332-04f3-4bdd-80a4-ac31066ec183/value {"text": "ttest3", "value": ["t", "t", "e", "s", "t", "3"], "id": "047c3332-04f3-4bdd-80a4-ac31066ec183"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/047c3332-04f3-4bdd-80a4-ac31066ec183/value HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "input[name=\"confirm_password\"]"}
+Thu, 29 Sep 2022 13:54:51 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"bcc9e264-27bb-4d8f-bcd5-ced6fdf49eb2"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:51 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/bcc9e264-27bb-4d8f-bcd5-ced6fdf49eb2/value {"text": "ttest3", "value": ["t", "t", "e", "s", "t", "3"], "id": "bcc9e264-27bb-4d8f-bcd5-ced6fdf49eb2"}
+Thu, 29 Sep 2022 13:54:52 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/bcc9e264-27bb-4d8f-bcd5-ced6fdf49eb2/value HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "css selector", "value": "input[value=\" \u786e\u5b9a \"]"}
+Thu, 29 Sep 2022 13:54:52 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"e702c1e6-d35f-4d85-9cda-2028d20f091c"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/e702c1e6-d35f-4d85-9cda-2028d20f091c/click {"id": "e702c1e6-d35f-4d85-9cda-2028d20f091c"}
+Thu, 29 Sep 2022 13:54:52 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element/e702c1e6-d35f-4d85-9cda-2028d20f091c/click HTTP/1.1" 200 14
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:52 Log.py[line:18] INFO add user success
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:358] DEBUG POST http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element {"using": "xpath", "value": "//td[contains(text(),\"test3\")]"}
+Thu, 29 Sep 2022 13:54:52 connectionpool.py[line:456] DEBUG http://localhost:14502 "POST /session/6c27077d1faff89b27369edaf86c5ef3/element HTTP/1.1" 200 88
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"6db38a82-7159-4e4e-ba41-6a9e17328633"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:409] DEBUG Finished Request
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:358] DEBUG GET http://localhost:14502/session/6c27077d1faff89b27369edaf86c5ef3/element/6db38a82-7159-4e4e-ba41-6a9e17328633/text {"id": "6db38a82-7159-4e4e-ba41-6a9e17328633"}
+Thu, 29 Sep 2022 13:54:52 connectionpool.py[line:456] DEBUG http://localhost:14502 "GET /session/6c27077d1faff89b27369edaf86c5ef3/element/6db38a82-7159-4e4e-ba41-6a9e17328633/text HTTP/1.1" 200 52
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:380] DEBUG Remote response: status=200 | data={"value":"会员账号 test3 已经添加成功。"} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+Thu, 29 Sep 2022 13:54:52 remote_connection.py[line:409] DEBUG Finished Request
